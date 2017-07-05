@@ -24,7 +24,7 @@ OUT=Output" \
 
 ENV "IN=172.18.0.1:4999" \
     "OUT=4999" \
-    "HOME=/home/swapnil"
+    "HOME=/root"
 
 RUN apk add --no-cache socat
 
