@@ -18,7 +18,8 @@ LABEL org.label-schema.vendor="Personal" \
     org.label-schema.version=$version \
     org.label-schema.schema-version="1.0" \
     org.label-schema.docker.cmd.devel="" \
-    org.label-schema.docker.params="IN=Input,OUT=Output" \
+    org.label-schema.docker.params="IN=Input,\
+OUT=Output" \
     org.label-schema.build-date=$build_date
 
 ENV "IN=172.18.0.1:4999" \
