@@ -25,6 +25,6 @@ OUT=Output" \
 ENV "IN=172.18.0.1:4999" \
     "OUT=4999"
 
-RUN apk add --no-cache socat
+RUN 'apk add --no-cache socat'
 
 ENTRYPOINT socat -d -d TCP-L:$OUT,fork TCP:$IN
