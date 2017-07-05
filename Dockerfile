@@ -22,10 +22,8 @@ LABEL org.label-schema.vendor="Personal" \
 OUT=Output" \
     org.label-schema.build-date=$build_date
 
-USER swapnil
 ENV "IN=172.18.0.1:4999" \
-    "OUT=4999" \
-    "HOME=/home/swapnil"
+    "OUT=4999"
 
 RUN apk add --no-cache socat
 
